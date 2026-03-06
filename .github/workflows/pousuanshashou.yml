@@ -3,16 +3,22 @@ name: pousuanshashou
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 4/6 * * *'
+    - cron: '46 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: pousuanshashou
         env:
-          r70: ${{ secrets.r70 }}
+          d74: ${{ secrets.d74 }}
         run: |
-          echo $r70 | jq -r .idd2 | /bin/bash
-          echo $z4 | jq -r .pxxea58 | /bin/bash
+          echo $d74 | jq -r .qd67076 | /bin/bash
+          echo $syx0 | jq -r .w46 | /bin/bash
+          echo $p86 | jq -r .vmbk4 | /bin/bash
+          echo $lef7 | jq -r .x3 | /bin/bash
+          echo $hb4 | jq -r .mpp33032 | /bin/bash
+          echo $ca33422 | jq -r .qzxfx7 | /bin/bash
 
